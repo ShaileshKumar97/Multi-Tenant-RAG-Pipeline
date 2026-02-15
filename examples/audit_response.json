@@ -1,0 +1,55 @@
+{
+  "response_id": "550e8400-e29b-41d4-a716-446655440000",
+  "tenant_id": "123e4567-e89b-12d3-a456-426614174000",
+  "query": "What are the safety requirements for handling hazardous materials?",
+  "answer": "Based on historical documents, the safety requirements for handling hazardous materials include: (1) Personal protective equipment (PPE) must be worn at all times [Document: Doc-Q1, Page: 12], (2) Materials must be stored in approved containers [Document: Doc-Q1, Page: 15], and (3) All handling must be documented in the safety log [Document: Doc-Q4, Page: 8]. Note: Current document does not specify training requirements, which were mentioned in historical documents.",
+  "citations": [
+    {
+      "document_id": "660e8400-e29b-41d4-a716-446655440001",
+      "document_name": "Doc-Q1",
+      "chunk_id": "770e8400-e29b-41d4-a716-446655440002",
+      "page": 12,
+      "section": "Safety Protocols",
+      "excerpt": "All personnel handling hazardous materials must wear appropriate PPE including gloves, safety glasses, and lab coats.",
+      "similarity": 0.94
+    },
+    {
+      "document_id": "660e8400-e29b-41d4-a716-446655440001",
+      "document_name": "Doc-Q1",
+      "chunk_id": "770e8400-e29b-41d4-a716-446655440003",
+      "page": 15,
+      "section": "Storage Requirements",
+      "excerpt": "Hazardous materials must be stored in containers approved by the safety department and labeled according to regulatory standards.",
+      "similarity": 0.89
+    },
+    {
+      "document_id": "880e8400-e29b-41d4-a716-446655440004",
+      "document_name": "Doc-Q4",
+      "chunk_id": "990e8400-e29b-41d4-a716-446655440005",
+      "page": 8,
+      "section": "Documentation",
+      "excerpt": "All handling of hazardous materials must be logged in the safety log with date, time, material name, and handler name.",
+      "similarity": 0.87
+    }
+  ],
+  "confidence": 0.88,
+  "sources_used": 3,
+  "model_metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "tokens_used": 1250
+  },
+  "full_prompt": "You are an AI assistant... [truncated for brevity]",
+  "retrieved_context": [
+    {
+      "chunk_id": "770e8400-e29b-41d4-a716-446655440002",
+      "document_id": "660e8400-e29b-41d4-a716-446655440001",
+      "chunk_text": "All personnel handling hazardous materials must wear appropriate PPE...",
+      "page": 12,
+      "similarity": 0.94
+    }
+  ],
+  "processing_time_ms": 1250,
+  "created_at": "2026-02-15T10:25:00Z"
+}
